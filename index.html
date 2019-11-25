@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ToDOM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="app">
+      <h1>Todo</h1>
+        <section id='section1'>
+          <label for="todo-input">Add to your todo list!</label>
+          <input class="todo-input "type="text" name="todo-input">
+          <button class="add-todo">ADD</button>
+        </section>
+        <section id='section2'>
+          <label for="index-input">Remove an index from your todo list!</label>
+          <input class="index-input "type="text" name="index-input">
+          <button class="remove-todo">REMOVE</button>
+        </section>
+        <section id='section3'>
+          <label for="remove-everything">Click here to clear the list</label>
+          <button class="remove-everything">CLEAR</button>
+        </section>
+        
+      <ol class="todo-list"></ol>
+    </div>
+    <script src = "./addToToDo.js"></script>
+    <script src = "./removeFromToDo.js"></script>
+    <script src = "./clear-everything.js"></script>
+  </body>
+</html>
